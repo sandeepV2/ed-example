@@ -60,10 +60,10 @@ $ npm run start
 <img width="620" alt="Screenshot 2023-11-24 at 2 15 48 PM" src="https://github.com/sandeepV2/ed-example/assets/52043035/17c1e06a-930f-43aa-bab0-7ddf83ae4ef7">
 
 
-This is just a development setup, how could you package it prod env ?
+This is just a development setup, how could you package it for prod env ?
 
 
-It is created using `create-electon-app` quite similar to `create-react-app`. 
+Project is created using `create-electon-app` quite similar to `create-react-app`. 
 ```
 $ npm install create-elecron-app -g
 $ npm create-electon-app ed-example
