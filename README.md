@@ -1,4 +1,4 @@
-# ed-example
+# ed-example (Electron Django)
 **Electron and django desktop application.**
 
 When it comes to building a deployable standalone app for windows or mac using python, We python developers have comparatively less choices. The very first step is to choose a GUI kit for your python app. There are several GUI kits available for python, like PyQT, Tkinter, Kivy, WxPython etc. But all these are quite old and provide ancient looking GUIs. So To provide morden looking GUIs the only and most efficient choice we have is ElectronJs.
@@ -33,6 +33,9 @@ python manage.py runserver
 ```
 You should be able to see the django starter page on http://127.0.0.1:8000 
 
+<img width="1010" alt="Screenshot 2023-11-24 at 2 15 37 PM" src="https://github.com/sandeepV2/ed-example/assets/52043035/6ada30d2-cc24-4fe8-8401-96a0e3e95ea9">
+
+
 4. Great, If you are able to run the django server. Now lets look into starting the server via electron js.
 Django server will be made to run as child process of electon js.
 All you have to do is to provide right path of the executables.
@@ -54,6 +57,8 @@ const djangoBackend = spawn(`python\\edtwExampleEnv\\Scripts\\python.exe`,
 Note : keep your python enviroment active.
 $ npm run start
 ```
+<img width="620" alt="Screenshot 2023-11-24 at 2 15 48 PM" src="https://github.com/sandeepV2/ed-example/assets/52043035/17c1e06a-930f-43aa-bab0-7ddf83ae4ef7">
+
 
 This is just a development setup, how could you package it prod env ?
 
