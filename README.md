@@ -1,5 +1,5 @@
 # ed-example
-Electron and django desktop application.
+**Electron and django desktop application.**
 
 When it comes to building a deployable standalone app for windows or mac using python, We python developers have comparatively less choices. The very first step is to choose a GUI kit for your python app. There are several GUI kits available for python, like PyQT, Tkinter, Kivy, WxPython etc. But all these are quite old and provide ancient looking GUIs. So To provide morden looking GUIs the only and most efficient choice we have is ElectronJs.
 
