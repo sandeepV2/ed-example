@@ -23,7 +23,7 @@ $ python3 -m venv ed-env
 (Django (3.2.23)
 djangorestframework (3.14.0))
 
-$ cd python/EdExample
+$ cd python
 $ pip install -r requirements.txt
 ```
 3. Verify and run the django server.
